@@ -8,7 +8,7 @@ import tempfile
 import os
 
 # --- 0. Configuration ---
-st.set_page_config(page_title="Bangladesh Smart Toll Dashboard", layout="wide", page_icon="🚗")
+st.set_page_config(page_title="Smart Vehicle Detection and Toll Management", layout="wide", page_icon="🚗")
 
 # Define path to models
 MODEL_PATHS = {
@@ -229,7 +229,7 @@ def predict_image(model, image, conf_thresh):
 
 # --- 5. Main App Layout ---
 def main():
-    st.title("🚦 Bangladesh Smart Toll & Traffic System")
+    st.title("🚦 Smart Vehicle Detection and Toll Management")
     st.write("Detect vehicles, collect toll, and identify unauthorized entries.")
 
     # --- Sidebar: Configuration ---
